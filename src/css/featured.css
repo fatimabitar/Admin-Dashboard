@@ -38,9 +38,10 @@
   align-items: center;
 }
 .featured__icon {
-  font-size: 16px;
+  font-size: 20px;
   color: green;
   margin-left: 10px;
+  font-weight: bolder;
 }
 .negative {
   color: red;

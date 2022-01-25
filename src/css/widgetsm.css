@@ -1,0 +1,55 @@
+.widgetSm {
+  flex: 1;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-right: 20px;
+}
+.widgetSm__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.widgetSm__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.widgetSm__listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.widgetSm__user {
+  display: flex;
+  flex-direction: column;
+}
+.widgetSm__userName {
+  font-weight: 600;
+}
+.widgetSm__jobTitle {
+  font-weight: 300;
+}
+.widgetSm__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+.widgetSm__icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
