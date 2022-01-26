@@ -1,0 +1,148 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+.user__titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user__addUser {
+  width: 80px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #008080;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.user__container {
+  display: flex;
+  margin-top: 20px;
+}
+.user__show {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-right: 10px;
+}
+.user__update {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 10px;
+}
+.user__showTop {
+  display: flex;
+  align-items: center;
+}
+.user__showImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.user__showTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: #555;
+}
+.user__showUserName {
+  font-size: 17px;
+  font-weight: bold;
+}
+.user__showUserTitle {
+  font-weight: 300;
+}
+.user__showBottom {
+  margin-top: 20px;
+}
+.user__showTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #aaa;
+}
+.user__showInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+.user__showIcon {
+  font-size: 20px;
+}
+.user__showInfoTitle {
+  margin-left: 10px;
+}
+
+/* User Update */
+.user__udateTitle {
+  font-size: 17px;
+  font-weight: bold;
+  color: #555;
+}
+.user__updateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.user__updateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.user__updateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.user__updateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid #aaa;
+}
+.user__updateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user__updateUpload {
+  display: flex;
+  align-items: center;
+}
+.user__updateUploadImg {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.user__updateIcon {
+  cursor: pointer;
+}
+.user__updateBtn {
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: teal;
+  color: #fff;
+}
